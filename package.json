@@ -38,12 +38,17 @@
     "decrypt"
   ],
   "scripts": {
-    "install": "node-gyp configure build"
+    "install": "node-gyp configure build",
+    "test": "mocha"
   },
   "gypfile": true,
   "readmeFilename": "README.md",
   "description": "unomp-multi-hashing",
   "bugs": {
     "url": "https://github.com/energicryptocurrency/node-multi-hashing/issues"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
   }
 }
