@@ -1,5 +1,5 @@
 {
-  "name": "unomp-multi-hashing",
+  "name": "@energicryptocurrency/unomp-multi-hashing",
   "version": "1.0.0",
   "main": "multihashing",
   "author": {
@@ -7,15 +7,16 @@
   },
   "contributors": [
     {
-     "name": "Energi Core Team"
+      "name": "Energi Core Team"
     }
-   ],
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/energicryptocurrency/node-multi-hashing.git"
   },
   "dependencies": {
-    "bindings": "*"
+    "bindings": "*",
+    "nan": "*"
   },
   "keywords": [
     "nrghash",
@@ -36,7 +37,7 @@
     "neoscrypt",
     "decrypt"
   ],
-    "scripts": {
+  "scripts": {
     "install": "node-gyp configure build"
   },
   "gypfile": true,
